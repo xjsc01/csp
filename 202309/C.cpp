@@ -4,7 +4,7 @@ using namespace std;
 int n, m;
 const int mod = 1e9 + 7;
 struct node{
-    int type;
+    int type; 
     char op;
     int id;
     node(int type, char op, int id){
