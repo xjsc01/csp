@@ -71,6 +71,7 @@ int main()
             legalRole.insert(tmp.first);
         }
 
+
         bool ok = false;
         for(const string& t1 : userToRole[{'u', uname}]){
             if(has(legalRole, t1)){
