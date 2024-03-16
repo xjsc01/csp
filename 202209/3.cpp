@@ -53,7 +53,12 @@ void execPerson(int d, int u, int r){
     }
 }
 void TimeOkClean(){
-
+    for(int x : timeOk[T]){
+        person[y]--;
+                if(person[y] == 0){
+                    person.erase(y);
+                }
+    }
 }
 int main()
 {
